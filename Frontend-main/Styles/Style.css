@@ -1,0 +1,65 @@
+@import url("Typography.css");
+@import url("https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic");
+
+body {
+  font-family: "Aeonik", sans-serif;
+}
+footer {
+  font-family: "Plus Jakarta Sans" !important;
+}
+.abouthero {
+  background-image: url("/images/about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  overflow: hidden;
+  height: 20rem;
+  /* border: 10px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: -1px 5px 15px black; */
+}
+
+/*Area of images*/
+.wrapper {
+  width: 100%;
+  height: 16rem;
+  display: flex;
+
+  animation: slide 8s infinite;
+}
+
+.image {
+  width: 100% !important;
+  height: 100% !important;
+}
+/*Animation activated by keyframes*/
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  55% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+[x-cloak] {
+  display: none !important;
+}

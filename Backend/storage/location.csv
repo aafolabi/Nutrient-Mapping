@@ -1,0 +1,100 @@
+1,GR2AX,Ghana,Ashanti,Adagya,6.9468405,-1.7589658,Corn,None,White,Mar,2022,Maize ,No,None,Yes,Poultry manure,Broadcast,Sep,2022,No,Yes,NAN,NAN,NAN
+2,GR5BX,Ghana,Brong Ahafo,Anikroma,6.811968,-1.7556054,Okra,None,Short,May,2022,Okro ,Yes,NPK 15-15-15,Yes,Poultry manure,NAN,Jul,2022,No,Yes,Monocropping,Yes,NAN
+3,GR5AO,Ghana,Brong Ahafo,Anikroma,6.805401,-1.7461643,Okra,None,Long,Jul,2022,Vegetable,Yes,NPK 15-15-15,Yes,Poultry manure,NAN,Nov,2022,No,Yes,Mixed,Yes,NAN
+4,GR5AX,Ghana,Brong Ahafo,Anikroma,6.811968,-1.7556054,Okra,None,Long,Feb,2022,Okro,Yes,NPK 15-15-15,No,None,NAN,Sep,2022,No,Yes,Monocropping,Yes,NAN
+5,GR5BO,Ghana,Brong Ahafo,Anikroma,6.805401,-1.7461643,Okra,None,Short,Jul,2022,Vegetable,Yes,NPK 15-15-15,Yes,Poultry manure,Band,Nov,2022,No,Yes,Mixed,Yes,NAN
+6,GS2AX,Ghana,Brong Ahafo,Atebubu,7.499237,-1.6668735,Corn,None,White,Apr,2022,Maize,Yes,NPK 23-10-5,No,None,Split,Aug,2022,Yes,Yes,NAN,NAN,NAN
+7,GS4BX,Ghana,Ashanti,Ayerede,7.4127278,-1.3899878,Rice,None,Short grain,Jun,2022,Rice,No,None,No,None,None,Nov,2022,No,Yes,NAN,NAN,NAN
+8,GS4AO,Ghana,Ashanti,Ayerede,7.440052,-1.4615776,Rice,None,Long grain,May,2022,Rice,No,None,No,None,None,Nov,2022,Yes,Yes,NAN,NAN,NAN
+9,GS4AX,Ghana,Ashanti,Ayerede,7.4423499,-1.5070263,Rice,None,Long grain,May,2022,Rice,No,None,No,None,None,Nov,2022,No,Yes,NAN,NAN,NAN
+10,GS2BX,Ghana,Brong Ahafo,Dandwa,7.5407475,-1.902752,Corn,None,Yellow,Apr,2022,Cowpea,Yes,NPK and Urea,No,None,Point placement,Jul,2022,No,Yes,NAN,NAN,NAN
+11,GS2AO,Ghana,Brong Ahafo,Dandwa,7.5551791,-1.7521507,Corn,None,White,Aug,2022,Maize,Yes,NPK 23-10-5,No,None,Point placement,Nov,2022,Yes,Yes,NAN,NAN,NAN
+12,GS2BO,Ghana,Brong Ahafo,Dandwa-Dromakese,7.5153871,-1.67478,Corn,None,Yellow,Apr,2022,Groundnut,Yes,NPK 15-15-15,No,None,Point placement and split,Aug,2022,Yes,Yes,NAN,NAN,NAN
+13,GS5BX,Ghana,Brong Ahafo,Donkeronkwanta,7.4070043,-1.6095769,Okra,None,Short,Oct,2022,Maize,Yes,NPK 23-10-5,No,None,NAN,Nov,2022,Yes,Yes,NAN,NAN,NAN
+14,GS1AX,Ghana,Brong Ahafo,Ejura,7.553385,-1.6958072,Cassava,None,Low cyanide,Apr,2022,Groundnut - mixed farm with cassava,No,None,No,None,None,Nov,2022,No,Yes,Mixed,NAN,NAN
+15,GS4BO,Ghana,Brong Ahafo,Ejura - Ayerede,7.4808335,-1.6441924,Rice,None,Short grain,Jul,2022,Rice,No,None,No,None,None,Nov,2022,No,Yes,NAN,NAN,NAN
+16,GS1BX,Ghana,Brong Ahafo,Fiaso - Dandwa,7.51603,-1.6824625,Cassava,None,High cyanide,Sep,2022,Cassava,No,None,No,None,None,Oct,2022,No,No,NAN,NAN,NAN
+17,GS3BO,Ghana,Brong Ahafo,Grumakrom,7.4919802,-1.6601036,Cowpea,None,Brown,Aug,2022,Cowpea,No,None,No,None,None,Nov,2022,Yes,Yes,NAN,NAN,NAN
+18,GS3BX,Ghana,Brong Ahafo,Grumakrom,7.3805545,-1.3499457,Cowpea,None,Brown,Jul,2022,Maize,No,None,No,None,None,Nov,2022,Yes,Yes,NAN,NAN,NAN
+19,GS3AO,Ghana,Brong Ahafo,Grumakrom,7.5407116,-1.1986524,Cowpea,None,White,Jul,2022,Maize,No,None,No,None,None,Nov,2022,Yes,Yes,NAN,NAN,NAN
+20,GS3AX,Ghana,Brong Ahafo,Grumakrom - Atebubu,7.5923748,-1.1682063,Cowpea,None,White,Aug,2022,Maize,No,None,No,None,None,Nov,2022,No,Yes,NAN,NAN,NAN
+21,GS5AX,Ghana,Brong Ahafo,Kintampo,8.0249452,-1.7279642,Okra,Ladies finger,Long,Aug,2022,Maize,Yes,NPK 23-10-5,No,None,NAN,Nov,2022,Yes,Yes,NAN,NAN,NAN
+22,GS5AO,Ghana,Brong Ahafo,Kintampo,8.0808141,-1.7147674,Okra,None,Long,Aug,2022,Okro,Yes,NPK 23-10-5,No,None,NAN,Oct,2022,Yes,No,NAN,NAN,NAN
+23,GS5BO,Ghana,Brong Ahafo,Kranka,7.682405,-1.815188,Okra,None,Short,Aug,2022,Okro,Yes,NPK 23-10-5,No,None,NAN,Oct,2022,Yes,Yes,NAN,NAN,NAN
+24,GS1AO,Ghana,Brong Ahafo,Nkoranza,7.636541,-1.7224023,Cassava,None,Low cyanide,Apr,2022,Groundnut,No,None,No,None,None,Nov,2022,No,No,Mixed,NAN,NAN
+25,GS1BO,Ghana,Brong Ahafo,Nkoranza - Jema,7.9080849,-1.7593092,Cassava,None,High cyanide,Apr,2022,Maize,No,None,No,None,None,Oct,2022,Yes,No,NAN,NAN,NAN
+26,GR2AO,Ghana,Ashanti,Old Offinso,6.9051929,-1.6601479,Corn,None,White,Apr,2022,Plantain,No,None,No,None,None,Aug,2022,No,No,Mixed,NAN,Yes
+29,GR1BO,Ghana,Ashanti,Sakamukrom,6.995575,-1.696536,Cassava,None,High cyanide,Apr,2022,Maize,No,None,Yes,Poultry manure,Broadcast,Oct,2022,No,Yes,NAN,NAN,NAN
+31,GR1AX,Ghana,Ashanti,Sakamukrom,6.8325168,-1.7307094,Cassava,None,Low cyanide,Apr,2022,Maize,No,None,No,None,None,Sep,2022,Yes,No,NAN,NAN,NAN
+32,GR1AO,Ghana,Ashanti,Sakamukrom,6.9476945,-1.7039085,Cassava,None,Low cyanide,Aug,2021,Plantain and Cocoa,No,None,No,None,None,Nov,2022,No,No,Mixed,NAN,NAN
+37,GR1BX,Ghana,Ashanti,Sakamukrom,6.9004305,-1.6655707,Cassava,None,High cyanide,Apr,2022,Cassava,No,None,No,None,None,Nov,2022,Yes,No,NAN,NAN,NAN
+27,GR2BX,Ghana,Ashanti,Sakamukrom,6.9227131,-1.6983499,Corn,None,Yellow,Apr,2022,Forest,No,None,Yes,Poultry manure,NAN,Aug,2022,No,Yes,Mixed,NAN,Yes
+28,GR2BO,Ghana,Ashanti,Sakamukrom,6.9079721,-1.7344186,Corn,None,Yellow,Apr,2022,Forest,No,None,Yes,Poultry manure,Broadcast,Aug,2022,No,Yes,Mixed,NAN,Yes
+30,GR3BX,Ghana,Ashanti,Sakamukrom,6.8716626,-1.74115204,Cowpea,None,Brown,Jul,2022,Maize,No,None,No,None,None,Aug,2022,No,No,NAN,NAN,NAN
+33,GR4AO,Ghana,Ashanti,Sakamukrom,6.8231497,-1.7317354,Rice,None,Low land,Mar,2022,Rice,No,None,Yes,Poultry manure,None,Jul,2022,No,Yes,NAN,NAN,NAN
+34,GR4AX,Ghana,Ashanti,Sakamukrom,6.8193296,-1.7563333,Rice,None,Low land,Mar,2022,Rice,No,None,Yes,Poultry manure,None,Jul,2022,No,Yes,NAN,NAN,NAN
+35,GR4BO,Ghana,Ashanti,Sakamukrom,6.8250099,-1.7358308,Rice,None,Upland,Mar,2022,Vegetable,Yes,NPK 15-15-15 and Urea,No,None,None,Aug,2022,No,Yes,NAN,NAN,NAN
+36,GR4BX,Ghana,Ashanti,Sakamukrom,6.822516,-1.7315688,Rice,None,Upland,Mar,2022,Rice,Yes,NPK 15-15-15,Yes,Poultry manure,Broadcast,Aug,2022,No,Yes,NAN,NAN,NAN
+38,GR3AX,Ghana,Ashanti,Sakamukrom-Adagya,6.992257,-1.804498,Cowpea,None,White,Jul,2022,Maize,No,None,No,None,None,Sep,2022,No,Yes,NAN,NAN,NAN
+39,GR3AO,Ghana,Ashanti,Sakamukrom-Adagya,6.9453372,-1.7550424,Cowpea,None,White,Jul,2022,Cowpea,No,None,No,None,None,Sep,2022,No,Yes,NAN,NAN,NAN
+40,GR3BO,Ghana,Ashanti,Sakamukrom-Bonsua,6.9478676,-1.7242081,Cowpea,None,Brown,Jul,2022,Maize,No,None,No,None,None,Sep,2022,No,No,NAN,NAN,NAN
+49,NR5AO,Nigeria,Edo,Iguomo,6.477384,5.459805,Amaranth,Green,Viridis,Oct,2022,Amaranth,Yes,Super-gro,No,None,NAN,Nov,2022,Yes,Yes,NAN,Yes,Yes
+50,NR5AX,Nigeria,Edo,Iguoriakhi,6.481305,5.464032,Amaranth,Green,Viridis,Oct,2022,Amaranth,Yes,Super-gro,No,None,NAN,Nov,2022,No,Yes,NAN,Yes,Yes
+51,NR5BO,Nigeria,Edo,New Benin,6.351316,5.628919,Amaranth,Yoruba red amaranth,Cruentus,Oct,2022,Amaranth,Yes,Urea,No,None,NAN,Nov,2022,Yes,Yes,NAN,Yes,Yes
+52,NR5BX,Nigeria,Edo,Isihor,6.406791,5.608706,Amaranth,Red vegetable,Cruentus,Oct,2022,Maize,Yes,Urea,No,None,NAN,Nov,2022,Yes,Yes,NAN,Yes,Yes
+41,NR1AO,Nigeria,Edo,Iguoriakhi,6.481574,5.46505,Cassava,None,Low cyanide,May,2021,Cassava and Maize,No,None,No,None,None,Dec,2022,No,Yes,NAN,NAN,Yes
+42,NR1AX,Nigeria,Edo,Iguoriakhi,6.480773,5.463799,Cassava,None,Low cyanide,Oct,2021,Cassava,No,None,No,None,None,Nov,2022,No,Yes,NAN,NAN,Yes
+43,NR1BO,Nigeria,Edo,Iqwosula,6.535118,5.638982,Cassava,Give me chance,High cyanide,Nov,2021,Maize,No,None,No,None,None,Nov,2022,Yes,Yes,NAN,NAN,Yes
+44,NR1BX,Nigeria,Edo,Iguoriakhi,6.517189,5.440676,Cassava,Give me chance,High cyanide,May,2022,Maize,No,None,No,None,None,Jul,2022,No,Yes,Cover,NAN,Yes
+45,NR2AO,Nigeria,Edo,Iguosula,6.53506,5.638529,Corn,White maize,White,Apr,2021,Maize,No,None,No,None,None,Aug,2022,Yes,Yes,NAN,NAN,NAN
+46,NR2AX,Nigeria,Edo,Iguoriakhi,6.481448,5.464577,Corn,White maize,White,Jul,2022,Cassava and Maize,Yes,NPK 15-15-15,No,None,NAN,Nov,2022,Yes,Yes,NAN,NAN,NAN
+47,NR2BO,Nigeria,Edo,Iguoriakhi,6.479421,5.460355,Corn,Yellow maize,Yellow,Jul,2022,Maize,Yes,Super-gro,No,None,NAN,Nov,2022,No,Yes,NAN,NAN,Yes
+48,NR2BX,Nigeria,Edo,Iguoriakhi,6.48113,5.464502,Corn,Yellow maize,Yellow,Jul,2022,Cassava and Maize,No,None,No,None,None,Nov,2022,No,Yes,NAN,NAN,Yes
+57,NR3AO,Nigeria,Edo,Iguomo,6.481905,5.464563,Cowpea,White beans,White,Aug,2022,Maize,No,No,No,None,None,Sep,2022,Yes,Yes,NAN,NAN,Yes
+58,NR3BX,Nigeria,Edo,Iguomo,6.481535,5.464513,Cowpea,None,Brown,Jul,2022,Maize,No,No,No,None,None,Sep,2022,Yes,Yes,NAN,NAN,Yes
+59,NR3BO,Nigeria,Edo,Ogheghe,6.423214,5.546859,Cowpea,Red beans,Brown,May,2022,Cassava and Maize,No,No,No,None,None,Jul,2022,Yes,Yes,NAN,NAN,Yes
+60,NR3AX,Nigeria,Edo,Okhunmeum,6.417788,5.56802,Cowpea,White beans,White,Aug,2022,Cassava and Maize,No,No,No,None,None,Sep,2022,Yes,Yes,NAN,NAN,NAN
+53,NR4AO,Nigeria,Edo,Iguomo,6.474405,5.458579,Rice,Local rice,Short grain,Aug,2022,Rice,No,No,No,None,None,Dec,2022,No,Yes,NAN,NAN,Yes
+54,NR4AX,Nigeria,Edo,Iguoriakhi,6.4804,5.464931,Rice,Local rice,Short grain,Aug,2022,Maize,No,No,No,None,None,Dec,2022,No,Yes,NAN,NAN,Yes
+55,NR4BO,Nigeria,Edo,Iguoriakhi,6.481401,5.463593,Rice,Nigerian foreign rice,Long grain,Jul,2022,Maize,No,No,No,None,None,Nov,2022,Yes,Yes,NAN,Yes,NAN
+56,NR4BX,Nigeria,Edo,Iguoriakhi,6.481212,5.464016,Rice,Local rice,Long grain,Jul,2022,Maize,No,No,No,None,None,Nov,2022,Yes,Yes,NAN,NAN,NAN
+69,NV5AO,Nigeria,Kwara,Kereaje,8.183531,4.702261,Amaranth,Tete green,Viridis,Oct,2022,Vegetable,No,None,No,None,None,Oct,2022,Yes,No,NAN,Yes,Yes
+70,NV5AX,Nigeria,Kwara,Offa ,8.183646,4.702449,Amaranth,Green,Viridis,Oct,2022,Vegetable,No,None,Yes,Ash,None,Oct,2022,Yes,No,NAN,Yes,Yes
+71,NV5BO,Nigeria,Kwara,Afro ,8.466165,4.568366,Amaranth,Tete,Cruentus,Sep,2022,Pepper,Yes,Super-gro,No,None,NAN,Oct,2022,Yes,Yes,NAN,Yes,Yes
+76,NV5BX,Nigeria,Kwara,Ajase,8.263608,4.836093,Amaranth,Tete pupa,Cruentus,Oct,2022,Maize,Yes,NAN,No,None,Broadcast,Oct,2022,Yes,Yes,NAN,Yes,NAN
+61,NV1AO,Nigeria,Kwara,Ita Akinbiade,8.337486,4.544078,Cassava,Ege atu,Low cyanide,Oct,2021,Cassava and Maize,No,None,No,None,None,Oct,2022,Yes,No,Cover,NAN,Yes
+62,NV1AX,Nigeria,Kwara,Afon ,8.338048,4.543065,Cassava,Atu,Low cyanide,Oct,2021,Cassava and Maize,No,None,No,None,None,Nov,2022,Yes,No,Mixed,NAN,Yes
+63,NV1BO,Nigeria,Kwara,Afon,8.336718,4.542976,Cassava,Oko Iyawo,High cyanide,Oct,2021,Maize,No,None,No,None,None,Oct,2022,Yes,No,Cover,NAN,Yes
+64,NV1BX,Nigeria,Kwara,Ajase,8.248657,4.808821,Cassava,Oko Iyawo,High cyanide,Oct,2021,Cassava,No,None,No,None,None,Oct,2022,No,No,Cover,NAN,Yes
+65,NV2AO,Nigeria,Kwara,Odore,8.558607,4.680938,Corn,White maize,White,Jun,2021,Maize,Yes,NPK 27-13-13,Yes,Poultry manure,NAN,Nov,2021,Yes,Yes,NAN,NAN,NAN
+66,NV2AX,Nigeria,Kwara,Oja Oba,8.55859,4.675496,Corn,White maize,White,May,2022,Cassava,Yes,NPK 15-15-15,Yes,Poultry manure,NAN,A,2022,Yes,Yes,NAN,NAN,NAN
+67,NV2BO,Nigeria,Kwara,Odore,8.503792,4.578467,Corn,Yellow maize,Yellow,Jun,2022,Maize,Yes,NPK 20-10-10,Yes,Poultry manure,NAN,Oct,2022,Yes,Yes,NAN,NAN,NAN
+68,NV2BX,Nigeria,Kwara,Odore,8.55955,4.680378,Corn,Agbado yellow,Yellow,Aug,2021,Cassava and Maize,Yes,NPK 15-15-15,No,None,NAN,Nov,2021,Yes,Yes,NAN,NAN,NAN
+72,NV3AO,Nigeria,Kwara,Odore,8.555227,4.672887,Cowpea,ewa olojududu,White,Sep,2022,Yam,No,None,No,None,None,Oct,2022,Yes,Yes,NAN,NAN,NAN
+73,NV3AX,Nigeria,Kwara,Agbeyangi,8.550279,4.661456,Cowpea,Ewa funfun,White,Aug,2022,Maize,No,None,No,None,None,Oct,2022,Yes,Yes,NAN,NAN,NAN
+74,NV3BO,Nigeria,Kwara,Odore,8.556702,4.67327,Cowpea,Ewa pupa,Brown,Aug,2022,Maize,No,None,No,None,None,Oct,2022,Yes,Yes,NAN,NAN,NAN
+75,NV3BX,Nigeria,Kwara,Gbapo,8.554527,4.671801,Cowpea,Ewa pupa,Brown,Aug,2022,Cowpea,No,None,No,None,None,Oct,2022,Yes,Yes,NAN,NAN,NAN
+77,NV4BO,Nigeria,Kwara,Offa ,8.196069,4.742643,Rice,None,Long grain,Jul,2022,Rice,Yes,Super-gro,No,None,NAN,Dec,2022,Yes,Yes,NAN,NAN,NAN
+78,NV4BX,Nigeria,Kwara,Offa ,8.161099,4.726503,Rice,Rice,Long grain,Jul,2021,Rice,Yes,Super-gro,No,None,NAN,Nov,2021,Yes,Yes,NAN,NAN,NAN
+79,NV4AO,Nigeria,Kwara,Igberi,8.350566,4.732179,Rice,Tiwantiwa-Varo 44,Short grain,Jun,2022,Rice,Yes,NPK 15-15-15,Yes,Poultry manure,NAN,Oct,2022,Yes,Yes,NAN,NAN,NAN
+80,NV4AX,Nigeria,Kwara,Omupo,8.297323,4.77468,Rice,Rice,Short grain,Sep,2022,Rice,Yes,Super-gro,No,None,NAN,Dec,2022,Yes,Yes,NAN,NAN,Yes
+97,NS5AO,Nigeria,Oyo,Moyara,7.811504,3.884488,Amaranth,Tete green,Viridis,Sep,2022,Vegetable,Yes,Urea,Yes,Goat dung,NAN,Oct,2022,Yes,Yes,NAN,NAN,NAN
+98,NS5AX,Nigeria,Oyo,Moyara,7.811512,3.884202,Amaranth,Tete pupa,Viridis,Sep,2022,Egusi Melon,Yes,Urea,Yes,Goat dung,NAN,Oct,2022,Yes,No,NAN,Yes,NAN
+99,NS5BO,Nigeria,Oyo,Moyara,7.811371,3.884768,Amaranth,Tete pupa,Cruentus,Sep,2022,Egusi Melon,Yes,Urea,No,None,NAN,Jul,2022,Yes,Yes,NAN,Yes,NAN
+100,NS5BX,Nigeria,Oyo,Moyara,7.812119,3.884171,Amaranth,Red tete,Cruentus,Sep,2022,Maize,Yes,Urea,No,None,NAN,Oct,2022,Yes,Yes,NAN,Yes,NAN
+81,NS1AO,Nigeria,Oyo,Ilora,7.796692,3.82069,Cassava,Ege isu,Low cyanide,Nov,2021,Maize,No,None,No,None,None,Oct,2022,Yes,Yes,Cover,NAN,NAN
+82,NS1AX,Nigeria,Oyo,Ilora,7.797987,3.819618,Cassava,Ege isu,Low cyanide,Oct,2021,Maize,No,None,No,None,None,Oct,2022,Yes,Yes,Cover,NAN,NAN
+83,NS1BO,Nigeria,Oyo,Ilora,7.796097,3.818971,Cassava,Gari,High cyanide,Oct,2021,Maize,No,None,No,None,None,Oct,2022,Yes,Yes,Cover,NAN,NAN
+84,NS1BX,Nigeria,Oyo,Aba Dijo,7.797111,3.819393,Cassava,Ege gari,High cyanide,Oct,2021,Maize,No,None,No,None,None,Oct,2022,Yes,Yes,Cover,NAN,NAN
+85,NS2AO,Nigeria,Oyo,Oke chain,7.795308,3.818782,Corn,Ogi,White,Jul,2022,Cassava,Yes,NPK 15-15-15,No,None,NAN,Oct,2022,Yes,Yes,NAN,NAN,NAN
+86,NS2AX,Nigeria,Oyo,Seke ,7.804574,3.852103,Corn,Ogi,White,Aug,2022,Cassava,Yes,NPK 15-15-15,No,None,NAN,Nov,2022,Yes,Yes,Mixed,NAN,NAN
+87,NS2BO,Nigeria,Oyo,Bawoo,7.77723,3.795928,Corn,Agbado yellow,Yellow,Aug,2022,Maize,Yes,NPK 15-15-15,No,None,NAN,Oct,2022,Yes,Yes,Mixed,NAN,NAN
+88,NS2BX,Nigeria,Oyo,Seke ,7.808096,3.862098,Corn,Agbado yellow,Yellow,Oct,2021,Maize,Yes,Super-gro,No,None,NAN,Nov,2021,Yes,Yes,NAN,NAN,NAN
+89,NS3AO,Nigeria,Oyo,Oke chain ,7.79705,3.820873,Cowpea,Kawoleri,White,Aug,2021,Maize,No,None,No,None,None,Oct,2022,Yes,Yes,NAN,NAN,NAN
+90,NS3AX,Nigeria,Oyo,Danun,7.786187,3.806389,Cowpea,Kawoleri,White,Aug,2022,Cowpea,Yes,Super-gro,No,None,NAN,Jan,2022,Yes,Yes,NAN,NAN,NAN
+91,NS3BO,Nigeria,Oyo,Boundary,7.635527,3.544855,Cowpea,Ewa oloyin,Brown,Dec,2022,Maize,No,None,No,None,None,Oct,2022,Yes,Yes,NAN,NAN,NAN
+92,NS3BX,Nigeria,Oyo,Boundary ,7.795796,3.821301,Cowpea,Ewa oloyin,Brown,Aug,2022,Cassava and Maize,No,None,No,None,None,Nov,2022,Yes,Yes,NAN,NAN,NAN
+93,NS4AO,Nigeria,Oyo,Ilora,7.77766,3.795615,Rice,Rice,Short grain,Sep,2022,Maize,Yes,Super-gro,No,None,NAN,Dec,2022,Yes,Yes,NAN,NAN,NAN
+94,NS4AX,Nigeria,Oyo,Kajede,7.804975,3.847892,Rice,Rice,Short grain,Sep,2022,Maize,Yes,Super-gro,No,None,NAN,Oct,2022,Yes,Yes,NAN,NAN,NAN
+95,NS4BO,Nigeria,Oyo,Kajede,7.785303,3.806079,Rice,Rice,Long grain,Nov,2021,Rice,Yes,NPK 27-13-13,No,None,NAN,Apr,2022,Yes,Yes,NAN,NAN,NAN
+96,NS4BX,Nigeria,Oyo,Kajede,7.804895,3.846633,Rice,Rice,Long grain,Oct,2021,Cassava,Yes,Super-gro,No,None,NAN,Mar,2022,Yes,Yes,NAN,NAN,Yes

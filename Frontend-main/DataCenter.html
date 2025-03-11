@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Styles/Style.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic"
+      rel="stylesheet"
+    />
+    <title>AfriNutriData</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {},
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Navbar Section Start -->
+    <section>
+      <div x-cloak x-data="{nav: false}" class="w-full h-24">
+        <div
+          class="w-5/6 mx-auto flex lg:justify-start justify-between lg:gap-64 items-center h-24"
+        >
+          <div class="flex gap-1 items-center h-full">
+            <img src="./images/logo.png" alt="" class="h-12" />
+            <p class="text-base font-medium text-[#0bac56]">AfriNutriData</p>
+          </div>
+          <button x-on:click="nav = true" class="lg:hidden block">
+            <img src="/images/menu.png" alt="" class="h-10" />
+          </button>
+          <nav class="hidden lg:block">
+            <ul
+              class="flex gap-5 text-base font-normal cursor-pointer text-[#002411]"
+            >
+              <li><a href="/Index.html">Home</a></li>
+              <li><a href="/About.html">About us</a></li>
+              <li><a href="/Explore.html">Explore</a></li>
+              <li><a href="#">DataCenter</a></li>
+              <li><a href="">DataBase</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div
+          x-show="nav"
+          x-transition:enter.duration.500ms
+          x-transition:leave.duration.500ms
+          :class='nav ? "absolute px-3 py-5 top-0 w-full bg-white lg:hidden block bg-opacity-50 backdrop-blur-xl transition ease-in-out delay-150" : "hidden"'
+        >
+          <div class="flex justify-between">
+            <img src="/images/logo.png" alt="" class="h-10" />
+            <button x-on:click="nav = false" class="">
+              <img src="/images/close.png" alt="" class="" />
+            </button>
+          </div>
+          <ul class="text-base font-normal text-[#002411] space-y-3 mt-4">
+            <li><a href="/Index.html">Home</a></li>
+            <li><a href="/About.html">About us</a></li>
+            <li><a href="/Explore.html">Explore</a></li>
+            <li><a href="#">DataCenter</a></li>
+            <li><a href="">DataBase</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Navbar Section Ends -->
+    <!-- Main Section Start -->
+    <section class="w-full py-12">
+      <div class="w-5/6 mx-auto">
+        <div class="text-center text-[#002411]">
+          <h1 class="text-4xl font-bold">Data Center</h1>
+          <p class="pt-6 text-xl font-normal">
+            Accurate nutrition data, supporting agribusiness projects
+          </p>
+        </div>
+        <div
+          class="mt-10 w-full lg:h-72 py-8 lg:py-0 bg-white overflow-visible"
+        >
+          <form
+            action=""
+            class="flex flex-col lg:flex-row lg:space-y-0 space-y-4 justify-between items-center h-full px-12"
+          >
+            <div class="">
+              <p for="country" class="text-xl text-[#002411] font-normal">
+                Select Country
+              </p>
+
+              <select
+                name="country"
+                placeholder="Select Country"
+                id="country"
+                class="h-14 w-56 rounded-lg bg-gray-50 border mt-4 text-xl text-[#012411] font-normal pl-6"
+              >
+                <option value="nigeria">Nigeria</option>
+                <option value="USA">USA</option>
+              </select>
+            </div>
+            <div class="">
+              <p for="country" class="text-xl text-[#002411] font-normal">
+                Select State/Region
+              </p>
+
+              <select
+                name="country"
+                placeholder="Select Country"
+                id="country"
+                class="h-14 w-56 rounded-lg bg-gray-50 border mt-4 text-xl text-[#012411] font-normal pl-6"
+              >
+                <option value="nigeria">Oyo</option>
+                <option value="USA">USA</option>
+              </select>
+            </div>
+            <div class="">
+              <p for="country" class="text-xl text-[#002411] font-normal">
+                Select Crop
+              </p>
+
+              <select
+                name="country"
+                placeholder="Select Country"
+                id="country"
+                class="h-14 w-56 rounded-lg bg-gray-50 border mt-4 text-xl text-[#012411] font-normal pl-6"
+              >
+                <option value="nigeria">Maize</option>
+                <option value="USA">USA</option>
+              </select>
+            </div>
+            <div class="">
+              <button
+                type="submit"
+                class="w-40 bg-opacity-80 mt-10 h-14 bg-[#0bac56] text-white font-bold text-sm rounded-lg"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="w-5/6 mx-auto bg-white py-8 lg:py-0 mt-8">
+        <form
+          action=""
+          class="flex flex-col lg:flex-row justify-start lg:gap-20 gap-10 items-center h-full px-12"
+        >
+          <div class="mt-10">
+            <p for="country" class="text-xl text-[#002411] font-normal">
+              Select Category
+            </p>
+
+            <select
+              name="country"
+              placeholder="Select Country"
+              id="country"
+              class="h-14 w-56 rounded-lg bg-gray-50 border mt-4 text-xl text-[#012411] font-normal pl-6"
+            >
+              <option value="nigeria">Yellow</option>
+              <option value="USA">USA</option>
+            </select>
+          </div>
+          <div class="mt-10">
+            <p for="country" class="text-xl text-[#002411] font-normal">
+              Select Chart Type
+            </p>
+
+            <select
+              name="country"
+              placeholder="Select Country"
+              id="country"
+              class="h-14 w-56 rounded-lg bg-gray-50 border mt-4 text-xl text-[#012411] font-normal pl-6"
+            >
+              <option value="nigeria">Bar Chart</option>
+              <option value="USA">USA</option>
+            </select>
+          </div>
+        </form>
+        <div class="bg-white h-96 w-9/12 mx-auto mt-4 mb-8">Chart</div>
+      </div>
+    </section>
+    <!-- Main Section Ends -->
+    <!-- Footer Section Start -->
+    <footer class="bg-white w-full mt-28">
+      <div class="w-5/6 mx-auto py-6 flex flex-col lg:flex-row gap-10 border-b">
+        <div class="lg:max-w-md">
+          <img src="./images/logo.png" alt="" class="h-12" />
+          <p class="text-sm text-[#9a9ea6] font-normal pt-4">
+            We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <div class="mt-8 space-y-4">
+            <div class="flex gap-2">
+              <img src="/images/Button.svg" alt="" />
+              <div class="mt-1">
+                <p class="text-[12px] text-[#9a9ea6] font-normal">Tel</p>
+                <p class="text-base font-normal text-[#0bac56]">310-437-2766</p>
+              </div>
+            </div>
+            <div class="flex gap-2">
+              <img src="/images/mail.png" alt="" />
+              <div class="mt-1">
+                <p class="text-[12px] text-[#9a9ea6] font-normal">Mail</p>
+                <p class="text-base font-normal text-[#0bac56]">
+                  info@afrinutridata.com
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-2">
+              <img src="/images/Button.png" alt="" />
+              <div class="mt-1">
+                <p class="text-[12px] text-[#9a9ea6] font-normal">Address</p>
+                <p class="text-base font-normal text-[#0bac56]">
+                  706 Campfire Ave Meriden, CT 06450
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-[500px]">
+          <h6 class="text-[#002411] text-lg font-normal">Menu</h6>
+          <p class="text-sm font-normal text-[#9a9ea6] pt-4">
+            Be the first one to know about discounts, offers and events
+          </p>
+          <ul class="text-[#0bac56] mt-4 text-base font-normal space-y-3">
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>Explore</li>
+            <li>Data Center</li>
+          </ul>
+        </div>
+        <div class="">
+          <h6 class="text-[#002411] text-lg font-normal">Contact us</h6>
+          <p class="text-sm font-normal text-[#9a9ea6] pt-4">
+            We usually respond before 24 hours.
+          </p>
+          <form class="mt-4 space-y-4" action="">
+            <input
+              type="text"
+              class="h-12 w-full bg-[#fdfdfd] border border-[#dde1df] pl-5 rounded-lg text-[#9a9ea6] text-[12px]"
+              placeholder="Name"
+            />
+            <input
+              type="text"
+              class="h-12 w-full bg-[#fdfdfd] border border-[#dde1df] pl-5 rounded-lg text-[#9a9ea6] text-[12px]"
+              placeholder="Email"
+            />
+            <textarea
+              name="message"
+              placeholder="Message"
+              id=""
+              class="h-32 w-full bg-[#fdfdfd] border border-[#dde1df] pl-5 rounded-lg text-[#9a9ea6] text-[12px] pt-5"
+            ></textarea>
+            <button
+              class="w-full h-14 bg-[#0bac56] text-white font-bold text-sm rounded-lg"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="flex justify-between w-5/6 mx-auto h-16 items-center">
+        <div class="">
+          <h6 class="text-[#002411] text-lg font-bold">Logo</h6>
+        </div>
+        <div class="">
+          <p class="font-normal text-sm text-[#9a9ea6]">
+            © Afrinutridata (a USAID project)
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section Ends -->
+  </body>
+</html>

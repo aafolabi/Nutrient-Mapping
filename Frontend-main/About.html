@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Styles/Style.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic"
+      rel="stylesheet"
+    />
+    <title>AfriNutriData</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {},
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Navbar Section Start -->
+    <section>
+      <div x-cloak x-data="{nav: false}" class="w-full h-24">
+        <div
+          class="w-5/6 mx-auto flex lg:justify-start justify-between lg:gap-64 items-center h-24"
+        >
+          <div class="flex gap-1 items-center h-full">
+            <img src="./images/logo.png" alt="" class="h-12" />
+            <p class="text-base font-medium text-[#0bac56]">AfriNutriData</p>
+          </div>
+          <button x-on:click="nav = true" class="lg:hidden block">
+            <img src="/images/menu.png" alt="" class="h-10" />
+          </button>
+          <nav class="hidden lg:block">
+            <ul class="flex gap-5 text-base font-normal text-[#002411]">
+              <li><a href="/Index.html">Home</a></li>
+              <li><a href="/About.html">About us</a></li>
+              <li><a href="/Explore.html">Explore</a></li>
+              <li><a href="/DataCenter.html">DataCenter</a></li>
+              <li><a href="">DataBase</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div
+          x-show="nav"
+          x-transition.duration.500ms
+          :class='nav ? "absolute px-3 py-5 top-0 w-full bg-white lg:hidden block bg-opacity-50 backdrop-blur-xl transition ease-in-out delay-150" : "hidden"'
+        >
+          <div class="flex justify-between">
+            <img src="/images/logo.png" alt="" class="h-10" />
+            <button x-on:click="nav = false" class="">
+              <img src="/images/close.png" alt="" class="" />
+            </button>
+          </div>
+          <ul class="text-base font-normal text-[#002411] space-y-3 mt-4">
+            <li><a href="/Index.html">Home</a></li>
+            <li><a href="/About.html">About us</a></li>
+            <li><a href="/Explore.html">Explore</a></li>
+            <li><a href="/DataCenter.html">DataCenter</a></li>
+            <li><a href="">DataBase</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Navbar Section Ends -->
+    <!-- Hero Section Start -->
+    <section>
+      <div class="w-full abouthero lg:h-screen lg:relative">
+        <div class="md:w-5/6 w-11/12 mx-auto py-28">
+          <div
+            class="lg:absolute bottom-12 rounded-3xl bg-opacity-80 lg:w-[500px] p-5 bg-white"
+          >
+            <p
+              class="text-base font-normal text-[#171818] lg:leading-8 leading-8"
+            >
+              This project aims to profile and document the nutritional
+              properties of five staple crops in two major countries in West
+              Africa - Nigeria and Ghana. The broader impact of this project is
+              to help every community represented in Africa make informed
+              nutrition/dietary decisions by leveraging a nutrient database. Our
+              objectives align with the third goal of the agenda 2063 promoted
+              by the African Union (AU) to achieve a prosperous Africa and
+              transform it into a self-sustaining global player.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section Ends -->
+    <!-- Objectives Section Start -->
+    <section>
+      <div class="w-5/6 mx-auto mt-24 flex flex-col lg:flex-row gap-20">
+        <div class="lg:w-[500px]">
+          <h2 class="font-medium md:text-2xl text-xl text-[#002411]">
+            The project objectives and expected outcomes are to:
+          </h2>
+        </div>
+        <div class="w-full">
+          <ul
+            class="font-normal space-y-4 text-xl text-[#002411] list-disc list-outside"
+          >
+            <li>
+              Characterize the nutritional qualities of staple crops in Nigeria
+              and Ghana.
+            </li>
+            <li>
+              Report on how these findings relates agronomic systems and
+              nutrition in Nigeria and Ghana.
+            </li>
+            <li>
+              Use collected data to create an open-access online platform for
+              public reference.
+            </li>
+            <li>
+              Collaborate with the AU Semi-arid Food Grain Research and
+              Development (AU-SAFGRAD) specialized technical office, the AU
+              Department of Health, Humanitarian Affairs and Social Development
+              (HHS), and the AU Mission in DC on the development and maintenance
+              of Database.
+            </li>
+            <li>
+              Conduct a media campaign to advertise the new platform, including
+              publishing research findings on AU website.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Objectives Section Ends -->
+    <!-- Team Section Starts -->
+    <section>
+      <div class="w-5/6 mx-auto mt-24">
+        <h4 class="text-2xl font-bold text-[#002411] capitalize">my team</h4>
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 lg:gap-4 gap-8 mt-8">
+          <div class="">
+            <img src="/images/team1.png" alt="" class="w-full" />
+            <div class="mt-4">
+              <h5 class="text-xl font-bold text-[#696969] capitalize">
+                yemisi emmanuel
+              </h5>
+              <p class="text-xl font-normal text-[#696969] capitalize pt-2">
+                frontend developer
+              </p>
+            </div>
+          </div>
+          <div class="">
+            <img src="/images/team2.png" alt="" class="w-full" />
+            <div class="mt-4">
+              <h5 class="text-xl font-bold text-[#696969] capitalize">
+                darasimi jackson
+              </h5>
+              <p class="text-xl font-normal text-[#696969] capitalize pt-2">
+                backend developer
+              </p>
+            </div>
+          </div>
+          <div class="">
+            <img src="/images/team3.png" alt="" class="w-full" />
+            <div class="mt-4">
+              <h5 class="text-xl font-bold text-[#696969] capitalize">
+                williams bankole
+              </h5>
+              <p class="text-xl font-normal text-[#696969] capitalize pt-2">
+                scientist
+              </p>
+            </div>
+          </div>
+          <div class="">
+            <img src="/images/team4.png" alt="" class="w-full" />
+            <div class="mt-4">
+              <h5 class="text-xl font-bold text-[#696969] capitalize">
+                beatrice bukola
+              </h5>
+              <p class="text-xl font-normal text-[#696969] capitalize pt-2">
+                researcher
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team Section Ends -->
+    <!-- Footer Section Start -->
+    <footer class="bg-white w-full mt-28">
+      <div class="w-5/6 mx-auto py-6 flex flex-col lg:flex-row gap-10 border-b">
+        <div class="lg:max-w-md">
+          <img src="./images/logo.png" alt="" class="h-12" />
+          <p class="text-sm text-[#9a9ea6] font-normal pt-4">
+            We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <div class="mt-8 space-y-4">
+            <div class="flex gap-2">
+              <img src="/images/Button.svg" alt="" />
+              <div class="mt-1">
+                <p class="text-[12px] text-[#9a9ea6] font-normal">Tel</p>
+                <p class="text-base font-normal text-[#0bac56]">310-437-2766</p>
+              </div>
+            </div>
+            <div class="flex gap-2">
+              <img src="/images/mail.png" alt="" />
+              <div class="mt-1">
+                <p class="text-[12px] text-[#9a9ea6] font-normal">Mail</p>
+                <p class="text-base font-normal text-[#0bac56]">
+                  info@afrinutridata.com
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-2">
+              <img src="/images/Button.png" alt="" />
+              <div class="mt-1">
+                <p class="text-[12px] text-[#9a9ea6] font-normal">Address</p>
+                <p class="text-base font-normal text-[#0bac56]">
+                  706 Campfire Ave Meriden, CT 06450
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-[500px]">
+          <h6 class="text-[#002411] text-lg font-normal">Menu</h6>
+          <p class="text-sm font-normal text-[#9a9ea6] pt-4">
+            Be the first one to know about discounts, offers and events
+          </p>
+          <ul class="text-[#0bac56] mt-4 text-base font-normal space-y-3">
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>Explore</li>
+            <li>Data Center</li>
+          </ul>
+        </div>
+        <div class="">
+          <h6 class="text-[#002411] text-lg font-normal">Contact us</h6>
+          <p class="text-sm font-normal text-[#9a9ea6] pt-4">
+            We usually respond before 24 hours.
+          </p>
+          <form class="mt-4 space-y-4" action="">
+            <input
+              type="text"
+              class="h-12 w-full bg-[#fdfdfd] border border-[#dde1df] pl-5 rounded-lg text-[#9a9ea6] text-[12px]"
+              placeholder="Name"
+            />
+            <input
+              type="text"
+              class="h-12 w-full bg-[#fdfdfd] border border-[#dde1df] pl-5 rounded-lg text-[#9a9ea6] text-[12px]"
+              placeholder="Email"
+            />
+            <textarea
+              name="message"
+              placeholder="Message"
+              id=""
+              class="h-32 w-full bg-[#fdfdfd] border border-[#dde1df] pl-5 rounded-lg text-[#9a9ea6] text-[12px] pt-5"
+            ></textarea>
+            <button
+              class="w-full h-14 bg-[#0bac56] text-white font-bold text-sm rounded-lg"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="flex justify-between w-5/6 mx-auto h-16 items-center">
+        <div class="">
+          <h6 class="text-[#002411] text-lg font-bold">Logo</h6>
+        </div>
+        <div class="">
+          <p class="font-normal text-sm text-[#9a9ea6]">
+            © Afrinutridata (a USAID project)
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section Ends -->
+  </body>
+</html>
